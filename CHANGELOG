@@ -1,0 +1,7 @@
+Roundcube Webmail MessageSize
+=============================
+
+2010 06 16
+==========
+ * Reanme plugin to messagesize
+ * Use new $attachment['size'] variable (r3261)
