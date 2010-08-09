@@ -1,5 +1,5 @@
 <?php
-/* Author: Philip Weir */
+/* Author: scambra */
 
 $labels = array();
 

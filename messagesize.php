@@ -14,13 +14,13 @@ class messagesize extends rcube_plugin
 {
 	public $task = 'mail';
 
-	public function init()
+	function init()
 	{
 		$this->add_hook('attachment_upload', array($this, 'check_size'));
 		$this->load_config();
 	}
 
-	public function check_size($args)
+	function check_size($args)
 	{
 		$limit = parse_bytes(rcmail::get_instance()->config->get('max_message_size', '10MB'));
 		$total = $args['size'];
